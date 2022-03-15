@@ -1,16 +1,34 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.navBar{
+ -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100%;
+  /* padding: 10px; */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.texto{
+   letter-spacing:  0.3em;
 }
 
-* {
-  box-sizing: border-box;
+.my-button {
+        width: 200px;
+        height: 200px;
+        outline-style:initial;
+        border-radius: 100px;
+        cursor: pointer;
+}
+
+.texto2{
+     letter-spacing:  0.1em;
+}
+
+.texto3{
+     letter-spacing: 0.4em;
 }
